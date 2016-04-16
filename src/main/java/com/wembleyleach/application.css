@@ -1,0 +1,26 @@
+.button {
+    -fx-background-radius: 0;
+    -fx-background-color: rgb(217.0, 217.0, 217.0, .85);
+    -fx-font-size: 20;
+    -fx-border-color: rgb(123.0, 123.0, 123.0, 1.0);
+    -fx-border-width: .250;
+}
+
+.button:pressed {
+    -fx-border-width: 1;
+    -fx-blend-mode: darken;
+    -fx-opacity: .5;
+}
+
+.button--text__light {
+    -fx-text-fill: #ffffff;
+}
+
+.button--background__orange {
+    -fx-background-color: rgb(242.0, 128.0, 39.0, .75);
+}
+
+.label {
+    -fx-background-color: rgb(0.0, 0.0, 0.0, .75);
+    -fx-text-fill: #ffffff;
+}
