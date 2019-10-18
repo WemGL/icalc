@@ -1,8 +1,8 @@
 .button {
     -fx-background-radius: 0;
-    -fx-background-color: rgb(217.0, 217.0, 217.0, .85);
+    -fx-background-color: rgba(217.0, 217.0, 217.0, 0.85);
     -fx-font-size: 20;
-    -fx-border-color: rgb(123.0, 123.0, 123.0, 1.0);
+    -fx-border-color: rgba(123.0, 123.0, 123.0, 1.0);
     -fx-border-width: .250;
 }
 
@@ -17,10 +17,18 @@
 }
 
 .button--background__orange {
-    -fx-background-color: rgb(242.0, 128.0, 39.0, .75);
+    -fx-background-color: rgba(242.0, 128.0, 39.0, 0.75);
+}
+
+.button--background__gray {
+    -fx-background-color: rgba(96.0, 92.0, 97.0, 1.0);
+}
+
+.button--background__dark-gray {
+    -fx-background-color: rgba(66.0, 65.0, 67.0, 1.0);
 }
 
 .label {
-    -fx-background-color: rgb(0.0, 0.0, 0.0, .75);
+    -fx-background-color: rgba(0.0, 0.0, 0.0, 0.75);
     -fx-text-fill: #ffffff;
 }
